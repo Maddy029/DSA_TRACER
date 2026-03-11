@@ -7,12 +7,15 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-@WebServlet("/")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 
-	protected void doPost(HttpServletResponse res,HttpServletRequest req ) throws IOException,ServletException{
+	protected void doPost( HttpServletRequest req , HttpServletResponse res) throws IOException,ServletException{
 
 		PrintWriter obj=res.getWriter()	;
+		obj.print("HELLO");
+		
+		
 				}
 
 
