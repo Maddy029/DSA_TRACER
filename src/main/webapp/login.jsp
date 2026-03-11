@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+<h2>User Login</h2>
+<form action="LoginServlet" method="post">
+<input type="email" name="email" required>
+<br><br>
+<input type="password" name="password" required>
+<br><br>
+<input type="submit" value="Login">
+</form>
+<%
+String error=request.getParameter("error");
+if(error!=null){
+%>
+<p style="color:red;"><%=error%></p>
+<%
+}
+%>
+<a href="register.jsp">Create Account</a>
+</body>
+</html>
