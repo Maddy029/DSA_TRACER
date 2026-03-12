@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
+    <wb-module deploy-name="DSA_TRACKER">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="DSA_TRACKER"/>
+        <property name="java-output-path" value="/DSA_TRACKER/build/classes"/>
+=======
     <wb-module deploy-name="DSA_TRACER">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <property name="context-root" value="DSA_TRACER"/>
         <property name="java-output-path" value="/DSA_TRACER/build/classes"/>
+>>>>>>> 214d3be13b02c0d426a0c1428ad25087669b5e1a
     </wb-module>
 </project-modules>

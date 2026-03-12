@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
+	<name>DSA_TRACKER</name>
+=======
 	<name>DSA_TRACER</name>
+>>>>>>> 214d3be13b02c0d426a0c1428ad25087669b5e1a
 	<comment></comment>
 	<projects>
 	</projects>
@@ -28,6 +32,8 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+<<<<<<< HEAD
+=======
 	<filteredResources>
 		<filter>
 			<id>1773205969693</id>
@@ -39,4 +45,5 @@
 			</matcher>
 		</filter>
 	</filteredResources>
+>>>>>>> 214d3be13b02c0d426a0c1428ad25087669b5e1a
 </projectDescription>
