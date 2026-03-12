@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,3 +39,10 @@ if(error!=null){
 
 </body>
 </html>
+=======
+
+
+<form action="login" method="post">
+<button >CLIC ME</button>
+</form>
+>>>>>>> 214d3be13b02c0d426a0c1428ad25087669b5e1a
